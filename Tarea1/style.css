@@ -1,0 +1,29 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to left, rgb(236, 4, 162), rgb(121, 1, 148), rgb(39, 0, 65));
+}
+
+.contenido{
+    color: #fff;
+}
+
+.contenido h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+.contenido h2{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.contenido p{
+    font-size: 35px;
+    text-align: center;
+}
+
+.contenido .img{
+    width: 250px;
+    margin-left: 150px;
+}

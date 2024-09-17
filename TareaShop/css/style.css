@@ -1,0 +1,91 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo3.jpg);
+    background-size: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 98, 0);
+    text-align: right;
+    padding: 10px;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+
+.carrito{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+
+.carrito:hover{
+    opacity: 60%;
+}
+
+img{
+    width: 240px;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.productos{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    width: 260px;
+    height: 380px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    transition: ease .5s;
+    background-color: #444;
+    margin: 5px;
+}
+
+.items:hover{
+    scale: 1.05;
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+}
+
+.price{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+button{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(255, 128, 0);
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+button:hover{
+    color: rgb(241, 142, 21);
+    background-color: rgb(255, 81, 0);
+}

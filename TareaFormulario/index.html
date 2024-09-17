@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro de datos</title>
+</head>
+<body>
+    <main>
+        <form id="f0" action="/llenado.html" method="post">
+            <div class="form">
+                <span><b>Llena el siguiente formulario</b></span> <br>
+                <label for="">Nombre</label><br>
+                <input type="text" class="form-control" name="nombre" required placeholder="Ingresa el Nombre">
+                <br>
+                <label for="">Apellido Paterno</label><br>
+                <input type="text" class="form-control" name="ap_paterno" required placeholder="Ingresa el primer Apellido">
+                <br>
+                <label for="">Correo Electronico</label><br>
+                <input type="email" class="form-control" name="correo" required placeholder="Ingresa un Correo Electronico">
+                <br>
+                <label for="">Numero Celular</label><br>
+                <input type="number" class="form-control" name="celular" required placeholder="Ingresa un Numero de Celular">
+                <br>
+                <label for="">Sexo</label><br>
+                <select name="sexo" id="id-sex">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="indefinido">Indefinido</option>
+                </select>
+                <br>
+                <input type="submit" value="Enviar" class="sub">
+
+            </div>
+        </form>
+
+    </main>
+    <script src="js/funcionalidad.js"></script>
+</body>
+</html>

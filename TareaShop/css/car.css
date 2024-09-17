@@ -1,0 +1,117 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
+    text-align: right;
+    padding-right: 40px;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 98, 0);
+    text-align: right;
+    padding: 10px;
+    font-size: large;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.productos-carrito {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    padding: 20px; 
+    gap: 15px; 
+    height: auto; 
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #fff;
+    border-radius: 15px;
+    transition: ease .5s;
+    background-color: #444; 
+}
+
+.cart-item img {
+    margin-right: 15px; 
+}
+
+.price{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.quitar{
+    width: 7%;
+    height: 35px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.quitar:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(121, 42, 42);
+}
+
+.total{
+    font-size: x-large;
+    font-weight: 800;
+    color: #fff;
+}
+
+.comprar{
+    width: 30%;
+    height: 35px;
+    background-color: rgb(34, 255, 34);
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.comprar:hover{
+    color: rgb(152, 255, 152);
+    background-color: rgb(0, 116, 29);
+}
+
+a{
+    background-color: #555;
+    border-radius: 5px;
+    width: 5%;
+    height: 30px;
+    text-align: center;
+    color: orange;
+}
+
+a:hover{
+    opacity: 60%;
+}

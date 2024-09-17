@@ -1,0 +1,65 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: url("../img/fondoo.jpg");
+    text-align: left;
+    color: #fff;
+}
+
+.head{
+    background-color: #000000;
+}
+
+.form {
+    background-color: #333;
+    text-align: left;
+    width: 400px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 110px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #fff;
+}
+
+.form-control{
+    height: 30px;
+    text-align: left;
+    font-size: medium;
+    border-radius: 15px;
+    width: 70%;
+    padding-left: 10px;
+    border: none;
+}
+
+#id-sex{
+    font-size: medium;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 55%;
+    padding-left: 10px;
+    border: none;
+}
+
+.sub{
+    width: 70%;
+    height: 35px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.sub:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(121, 42, 42);
+}

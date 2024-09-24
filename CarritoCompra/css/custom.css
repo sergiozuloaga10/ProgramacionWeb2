@@ -48,6 +48,10 @@ ul {
     position: relative;
 }
 
+#img-carrito{
+    text-align: right;
+}
+
 .submenu #carrito{
     display: none;
 }
@@ -137,6 +141,15 @@ ul {
 #lista-cursos .row {
     margin-bottom:20px;
 }
+
+.four-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr); /* 3 columnas en la primera fila */
+    grid-auto-rows: 1fr; /* Ajuste automático de la altura */
+    gap: 10px; /* Espacio entre los elementos, ajusta según necesites */
+    justify-items: center; /* Centrar los elementos dentro de sus celdas */
+}
+
 .agregar-carrito {
     margin:10px 0;
 }
@@ -148,7 +161,10 @@ ul {
 }
 @media (min-width: 550px) {
     .card {
+        width: 100%;
+        height: 100%;
         text-align: left;
+        
     }
 }
 .info-card  {

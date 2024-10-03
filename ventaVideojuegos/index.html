@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GameShopX</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <nav>
+            <img src="img/logo.png" alt="" class="logo">
+            <div class="container">
+                <div class="row">
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                <img src="img/cart.jpg" id="img-carrito">
+                                <div id="carrito">
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                    <br><br>
+                                    <span class="total">Total: $0.00</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h3>Selecciona tu consola</h3><br>
+        <div class="plataforma">
+            <br>
+            <img src="img/xbox.png" data-consola="xbox" alt="Xbox" />
+            <img src="img/ps.png" data-consola="ps" alt="PlayStation" />
+            <img src="img/nintendo.png" data-consola="nintendo" alt="Nintendo" />
+            <br>
+        </div>        
+
+        <div class="contenido">
+            <div class="juegos" data-consola="xbox">
+                <img src="img/x1.jpg" alt=""><br>
+                <h3>Halo Infinite</h3><br>
+                <span>$1599</span><br>
+                <a href="#" class="agregar" data-id="1">Agregar al carrito</a><br>
+                <button class="info" data-id="16">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="xbox">
+                <img src="img/x2.jpg" alt=""><br>
+                <h3>Starfield</h3><br>
+                <span>$1799</span><br>
+                <a href="#" class="agregar" data-id="2">Agregar al carrito</a><br>
+                <button class="info" data-id="17">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="xbox">
+                <img src="img/x3.jpg" alt=""><br>
+                <h3>Gears Tactics</h3><br>
+                <span>$1199</span><br>
+                <a href="#" class="agregar" data-id="3">Agregar al carrito</a><br>
+                <button class="info" data-id="18">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="xbox">
+                <img src="img/x4.jpg" alt=""><br>
+                <h3>Minecraft</h3><br>
+                <span>$499</span><br>
+                <a href="#" class="agregar" data-id="4">Agregar al carrito</a><br>
+                <button class="info" data-id="19">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="xbox">
+                <img src="img/x5.jpg" alt=""><br>
+                <h3>Halo The Master Chief Collection</h3><br>
+                <span>$1599</span><br>
+                <a href="#" class="agregar" data-id="5">Agregar al carrito</a><br>
+                <button class="info" data-id="20">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="ps">
+                <img src="img/p1.jpg" alt=""><br>
+                <h3>Ratchet & Clank Rift Apart</h3><br>
+                <span>$1299</span><br>
+                <a href="#" class="agregar" data-id="6">Agregar al carrito</a><br>
+                <button class="info" data-id="21">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="ps">
+                <img src="img/p2.jpg" alt=""><br>
+                <h3>God of War Ragnarok</h3><br>
+                <span>$1799</span><br>
+                <a href="#" class="agregar" data-id="7">Agregar al carrito</a><br>
+                <button class="info" data-id="22">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="ps">
+                <img src="img/p3.jpg" alt=""><br>
+                <h3>The Last of Us 2</h3><br>
+                <span>$1599</span><br>
+                <a href="#" class="agregar" data-id="8">Agregar al carrito</a><br>
+                <button class="info" data-id="23">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="ps">
+                <img src="img/p4.jpg" alt=""><br>
+                <h3>Spiderman 2</h3><br>
+                <span>$1499</span><br>
+                <a href="#" class="agregar" data-id="9">Agregar al carrito</a><br>
+                <button class="info" data-id="24">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="ps">
+                <img src="img/p5.jpg" alt=""><br>
+                <h3>Uncharted Collection</h3><br>
+                <span>$1599</span><br>
+                <a href="#" class="agregar" data-id="10">Agregar al carrito</a><br>
+                <button class="info" data-id="25">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="nintendo">
+                <img src="img/n1.jpg" alt=""><br>
+                <h3>Super SmashBros Ultimate</h3><br>
+                <span>$1599</span><br>
+                <a href="#" class="agregar" data-id="11">Agregar al carrito</a><br>
+                <button class="info" data-id="26">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="nintendo">
+                <img src="img/n2.jpg" alt=""><br>
+                <h3>Mario Kart 8 Deluxe</h3><br>
+                <span>$1299</span><br>
+                <a href="#" class="agregar" data-id="12">Agregar al carrito</a><br>
+                <button class="info" data-id="27">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="nintendo">
+                <img src="img/n3.jpg" alt=""><br>
+                <h3>Kirby Return to DreamLand</h3><br>
+                <span>$999</span><br>
+                <a href="#" class="agregar" data-id="13">Agregar al carrito</a><br>
+                <button class="info" data-id="28">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="nintendo">
+                <img src="img/n4.jpg" alt=""><br>
+                <h3>Metroid Dread</h3><br>
+                <span>$1499</span><br>
+                <a href="#" class="agregar" data-id="14">Agregar al carrito</a><br>
+                <button class="info" data-id="29">Mas informacion</button>
+            </div>
+
+            <div class="juegos" data-consola="nintendo">
+                <img src="img/n5.jpg" alt=""><br>
+                <h3>Legend Of Zelda Breath of the Wild</h3><br>
+                <span>$1599</span><br>
+                <a href="#" class="agregar" data-id="15">Agregar al carrito</a><br>
+                <button class="info" data-id="30">Mas informacion</button>
+            </div>
+        </div>
+
+        <div class="info-juegos">
+            <div class="informacion" id="16">
+                <img src="img/x1.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/8AVHOJlOWJg?si=wHVhpWbc5IsnLPfW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Cuando se ha perdido toda esperanza y el destino de la humanidad pende de un hilo, el Jefe Maestro está listo para luchar contra el enemigo más despiadado al que jamás haya hecho frente. Ponte la armadura del mayor héroe de la humanidad para vivir una aventura épica y explorar el descomunal anillo de Halo.</p>
+            </div>
+
+            <div class="informacion" id="17">
+                <img src="img/x2.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/mlZDWlk1t6k?si=yWOC4L9z534THqd2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Corre el año 2330. La humanidad se ha aventurado más allá de nuestro sistema solar para asentarse en planetas nuevos y vivir como un pueblo espacial. Te unirás a Constelación, el último grupo de exploradores espaciales en busca de raros artefactos por toda la galaxia, y viajaréis por la vasta extensión del espacio en el juego más grande y ambicioso de Bethesda Game Studios.</p>
+            </div>
+
+            <div class="informacion" id="18">
+                <img src="img/x3.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/E1a0sjuRxB0?si=HjJszkggTlvoW5gY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Las ciudades en el planeta Sera comienzan a caer ante la monstruosa amenaza que surge de la tierra, la Horda Locust. Con el gobierno desorganizado, un escuadrón de supervivientes surge como la última esperanza de la humanidad. </p>
+            </div>
+
+            <div class="informacion" id="19">
+                <img src="img/x4.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/MmB9b5njVbA?si=MhHAl71Ju2Vmyqg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>CREA 
+                    Crea lo que sea que puedas imaginar en tu propio mundo infinito que es único cada vez que lo juegues. 
+                    
+                    EXPLORA   
+                    Descubre biomas, recursos y criaturas, e ingéniate por un mundo repleto de sorpresas en el juego aislado definitivo. 
+                    
+                    SOBREVIVE  
+                    Disfruta de aventuras inolvidables mientras te enfrentas a enemigos misteriosos, atraviesas paisajes emocionantes y viajas a dimensiones peligrosas. 
+                    </p>
+            </div>
+
+            <div class="informacion" id="20">
+                <img src="img/x5.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/lF5-WSgNGac?si=zfRAJt56yriE1rUy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>En honor al icónico héroe y a su épico viaje, la historia completa del Jefe Maestro se presenta en Halo: The Master Chief Collection. Halo: Combat Evolved Anniversary, Halo 2: Anniversary, Halo 3, Halo 4 y, ahora, Halo: Reach y Halo 3: ODST están incluidos en una experiencia integrada.
+
+
+
+                    El paquete digital The Master Chief Collection es la experiencia más amplia de Halo hasta la fecha, con un total de 67 misiones de campaña y más de 120 modos de multijugador (incluidos los mapas originales de Halo Combat Evolved), mapas de operaciones Spartan y varias formas de jugar con el contenido Forja, creado por la comunidad. Actualizada con las mejoras de Xbox Series X, ¡esta es la colección que los fans de Halo estaban esperando!* 
+                    
+                    
+                    </p>
+            </div>
+
+            <div class="informacion" id="21">
+                <img src="img/p1.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/55PRv_e00wc?si=UK0wXo_qlDrK-QxH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>¡Ratchet y Clank han vuelto! Ayúdalos a parar los pies a un emperador robótico que pretende conquistar mundos interdimensionales y que ha fijado sus miras en su universo. Descubre la evolución de este equipo de ensueño con la llegada de Rivet, una luchadora lombax de la resistencia procedente de otra dimensión.</p>
+            </div>
+
+            <div class="informacion" id="22">
+                <img src="img/p2.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/F3jePdO9_jc?si=d4lvlg1ftEb7ecGJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Embárcate en un viaje épico e inquebrantable mientras Kratos y Atreus deben decidir si seguirán su destino o verán más allá de lo que ya está escrito y tomarán las riendas de su futuro.  
+
+                    Sé testigo de la dinámica cambiante de su relación mientras se preparan para la guerra; Atreus tiene hambre de conocimiento que lo ayude a comprender la profecía de "Loki", mientras Kratos lucha por liberarse del pasado y ser el padre que su hijo necesita.</p>
+            </div>
+
+            <div class="informacion" id="23">
+                <img src="img/p3.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/VSLSvEjDm5s?si=NnsqJPpuqpG1likg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Tras un violento y salvaje suceso que perturba la paz relativa que ha encontrado en Jackson, Ellie se dispone a impartir justicia a los responsables. A medida que les va dando caza uno a uno, deberá afrontar las repercusiones, tanto físicas como emocionales, de sus acciones.
+                </p>
+            </div>
+
+            <div class="informacion" id="24">
+                <img src="img/p4.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/cXSpEmPmbfc?si=Z83GLIp11QqRNBJq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Los Spider-Men, Peter Parker y Miles Morales, vuelven en una nueva y emocionante aventura en la franquicia aclamada por la crítica de Marvel’s Spider-Man para PS5. Nueve meses después de los sucesos de Marvel’s Spider-Man: Miles Morales, nos encontramos con que Miles todavía busca la ayuda de Peter, pero cuando aparece el misterioso Symbiote, las relaciones de Peter y Miles se ponen a prueba. Peter empieza a cambiar a medida que adquiere más poderes symbiote, y Miles, Mary Jane, Harry y demás amigos deben ayudar a Peter y, al mismo tiempo, enfrentar la inminente amenaza de un elenco de nuevos villanos como Kraven, Lizard, Sandman y Venom.</p>
+            </div>
+
+            <div class="informacion" id="25">
+                <img src="img/p5.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/F3Wl-OiZCO4?si=osJ9Cngp6_jXrnuZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Juega como Nathan Drake y Chloe Frazer en sus propias aventuras independientes mientras se ven obligados a enfrentar su pasado y forjar sus propios legados. La colección UNCHARTED™: Legacy of Thieves incluye las historias para un jugador aclamadas por la crítica de UNCHARTED™ 4: A Thief's End y UNCHARTED™: The Lost Legacy, remasterizadas para la consola PS5™.</p>
+            </div>
+
+            <div class="informacion" id="26">
+                <img src="img/n1.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/tqSY9mlmWIs?si=dT3bfRWcJQ4JM0xP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Ultimate consiste en lanzar al rival fuera del escenario y de la pantalla. Utiliza todo tipo de ataques para que el oponente acumule daño y después lánzalo fuera del escenario. Cuanto más daño tenga acumulado, ¡más lejos podrás lanzarlo! Si quieres propinar buenos golpes, prueba a utilizar ataques Smash.</p>
+            </div>
+
+            <div class="informacion" id="27">
+                <img src="img/n2.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/N_Hw_M5ENCQ?si=GRsiA5F2z3C4q-tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Mario Kart 8 Deluxe es un videojuego de carreras desarrollado y publicado por Nintendo para la consola Nintendo Switch. Es la undécima entrega de la serie Mario Kart, novena en consolas de Nintendo, y hasta el momento, el videojuego más vendido de la consola, lanzado mundialmente el 28 de abril de 2017.</p>
+            </div>
+
+            <div class="informacion" id="28">
+                <img src="img/n3.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/wqVGD_aNLdM?si=aSVCaZFg_IaGN8F7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>¡Únete a Kirby y sus amigos en una aventura fuera de este mundo! ¡Lucha contra los malos con las nuevas habilidades de copia Mecha y Sand, juega subjuegos en Merry Magoland, explora el reino entre dimensiones en una nueva historia de epílogo y mucho más! ¡Kirby's Return to Dream Land Deluxe ya está disponible solo en Nintendo Switch! Compralo ahora en GameShopX</p>
+            </div>
+
+            <div class="informacion" id="29">
+                <img src="img/n4.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/bbSdDDp9CNQ?si=FKgnIGfhyw_MPzK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Después de investigar una misteriosa transmisión del planeta ZDR, Samus se enfrenta a un enigmático enemigo que la atrapa en este peligroso mundo. Este remoto planeta está infestado de despiadadas formas de vida alienígenas y siniestros mecanismos llamados E.M.M.I. Sé cazadora y presa a la vez mientras te abres camino a través de un peligroso mundo en la aventura más intensa de Samus hasta ahora. </p>
+            </div>
+
+            <div class="informacion" id="30">
+                <img src="img/n5.jpg" alt="">
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/ofH5ptn5w-A?si=AlRAtSshbKJRlIiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h4>Sinopsis</h4><br>
+                <p>Después de un sueño de 100 años, Link despierta solo en un mundo que ya no recuerda. Ahora, el héroe legendario debe explorar una tierra vasta y peligrosa y recuperar sus recuerdos antes de que Hyrule se pierda para siempre. Armado únicamente con lo que puede encontrar, Link se dispone a encontrar respuestas y los recursos necesarios para sobrevivir.</p>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="js/carrito.js"></script>
+    <script src="js/plataforma.js"></script>
+    <script src="js/informacion.js"></script>
+</body>
+</html>

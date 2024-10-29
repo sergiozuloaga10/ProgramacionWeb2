@@ -8,6 +8,13 @@ body {
     text-align: center;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 nav {
     display: flex;
     /*flex-direction: row;*/
@@ -22,10 +29,36 @@ nav {
 .logo {
     width: 20%;
     height: 20%;
-    text-align: center;
+    
 }
 
-.container
+.sesion .log{
+    width: 50px;
+    height: 50px;
+}
+
+.sesion {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+}
+
+.sesion #datos-sesion{
+    display: none;
+}
+
+.sesion:hover #datos-sesion{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 2;
+    width: 300px;
+    background-color: #5e0167;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
 
 .submenu {
     position: relative;
@@ -40,7 +73,7 @@ nav {
     display: block; /* Mostrar el carrito siempre */
     position: fixed; /* Fijar el carrito en la pantalla */
     right: 0; /* Posicionarlo a la derecha */
-    top: 80px; /* Espacio desde el borde superior */
+    top: 100px; /* Espacio desde el borde superior */
     z-index: 1;
     background-color: #5e0167;
     padding: 20px;
@@ -83,7 +116,7 @@ nav {
 
 .plataforma-nintendo{
     width: 200px;
-    height: 200px;
+    height: 100px;
     transition: transform 0.3s ease;
 }
 
@@ -106,6 +139,7 @@ img {
     gap: 15px;
     margin-right: 300px; /* Reservar espacio para el carrito */
     overflow: auto; /* Evitar que el contenido se desborde */
+    padding: 30px;
 }
 
 .juegos {
